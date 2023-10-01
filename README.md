@@ -28,6 +28,17 @@ Designed to be manufactured by [JLCPCB](https://jlcpcb.com/) as 4layer PCB.
     - No special switch needed
     - It is not a toggle!
 
+### Warnings
+
+- There are no reverse-polarity protections
+  - Not on battery or USB-C
+- `D3`+`D4` don't have JLCPCB part number, pick any `1206` LEDs you like
+- Default component placement has to be tweaked on JLCPCB online editor
+  - `J1` shifted to right position
+  - `L1` rotated 90deg
+  - `U1`, `U2`, `U3` and `U4` must be rotated so 1st pin is in the corner with long line on Stencil layer
+    - `U1` = top right, `U2` = top left, `U3` = bottom right, `U4` = top left
+
 ## TODO
 
 - Power LED (white) ?
